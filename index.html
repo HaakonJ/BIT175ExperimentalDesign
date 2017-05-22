@@ -28,7 +28,7 @@
 						.parallaxParent > * {
 							height: 150%;
 							position: relative;
-							top: -100%;
+							top: -110%;
 						}
 					</style>
 					<div class="spacer s0"></div>
@@ -70,28 +70,27 @@
 						<div style="background-image: url(Images/MobileSmallnoback4.png); background-repeat: no-repeat; background-color:#111111; width:100%;">
 					</div>
 					</div>
-					<div class="spacer s2"></div>
 					<script>
 						// init controller
-						var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+						var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "100%"}});
 
 						// build scenes
 						new ScrollMagic.Scene({triggerElement: "#parallax1"})
-										.setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
+										.setTween("#parallax1 > div", {y: "50%", ease: Linear.easeNone})
 										.addIndicators()
 										.addTo(controller);
 
 						new ScrollMagic.Scene({triggerElement: "#parallax2"})
-										.setTween("#parallax2 > div", {y: "80%", ease: Linear.easeNone})
+										.setTween("#parallax2 > div", {y: "50%", ease: Linear.easeNone})
 										.addIndicators()
 										.addTo(controller);
 
 						new ScrollMagic.Scene({triggerElement: "#parallax3"})
-										.setTween("#parallax3 > div", {y: "80%", ease: Linear.easeNone})
+										.setTween("#parallax3 > div", {y: "50%", ease: Linear.easeNone})
 										.addIndicators()
 										.addTo(controller);
 						new ScrollMagic.Scene({triggerElement: "#parallax4"})
-										.setTween("#parallax4 > div", {y: "80%", ease: Linear.easeNone})
+										.setTween("#parallax4 > div", {y: "50%", ease: Linear.easeNone})
 										.addIndicators()
 										.addTo(controller);
 					</script>
