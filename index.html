@@ -6,8 +6,8 @@
 <title>Experimental Design Page</title>
 <link type="text/css" rel="stylesheet" href="../../../Fonts/style.css">
 <link type="text/css" rel="stylesheet" href="../../../CSS/normalize.css">
-<link type="text/css" rel="stylesheet" href="../../../CSS/P1F.css">
-<link rel="stylesheet" type="text/css" href="../../../CSS/P1A.css">
+<link type="text/css" rel="stylesheet" href="../../../CSS/P4F.css">
+<link rel="stylesheet" type="text/css" href="../../../CSS/P4A.css">
 <link type="text/css" rel="stylesheet" href="CSS/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg">
 <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
@@ -17,13 +17,16 @@
   <script type="text/javascript" src="JS/animation.gsap.js"></script>
 	<script type="text/javascript" src="JS/debug.addIndicators.js"></script>
 </head>
-
-<h1>Experimental Design</h1>
-
+<body>
+<div style="background-image: url(Images/pagetop.png); background-repeat: no-repeat; width: 100%; height: 330px; z-index: -20px;">
+<h1 style="color: white; margin-top: 0px;">Experimental Design</h1>
+</div>
 <style type="text/css">
+	body{margin: 0px;}
 						.parallaxParent {
 							height: 100vh;
 							overflow: hidden;
+							margin: 0px;
 						}
 						.parallaxParent > * {
 							height: 150%;
@@ -31,44 +34,47 @@
 							top: -110%;
 						}
 					</style>
-					<div class="spacer s0"></div>
-					<div id="parallax1" class="parallaxParent">
-						<div style="background-image: url(Images/MobileLargenoback.png); background-repeat: no-repeat; background-color:#111111;">
+					<div id="parallax1" class="parallaxParent" style="margin-top: -250px;">
+						<div style="background-image: url(Images/MobileLargenoback.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;">
+						</div>
 					</div>
-					<h1 style="color: white" margin-top:-200px;>This is a thing</h1>
-					</div>
-					<div class="spacer s1">
-						<div class="box2 blue">
+					
+					<div class="spacer s1" style="background-image: url(Images/pagetop.png); background-repeat: no-repeat; width: 100%; height: 330px; z-index: 10; margin-top: 0px;">
+						<div class="box2 blue" style="margin-top: -16px;">
 							<p>Content 1</p>
 							<a href="#" class="viewsource">view source</a>
 						</div>
 					</div>
-					<div class="spacer s0"></div>
-					<div id="parallax2" class="parallaxParent">
-						<div style="background-image: url(Images/MobileLargenoback2.png); background-repeat: no-repeat; background-color:#111111;">
+					<div class="spacer s0" style="margin-top: -250px;"></div>
+					<div id="parallax2" class="parallaxParent" >
+						<div style="background-image: url(Images/MobileLargenoback2.png); background-repeat: no-repeat; background-color:#111111; z-index: -1">
 					</div>
 					</div>
-					<div class="spacer s1">
-						<div class="box2 blue">
+					<section style="background-color: grey; width: 50%; height: 200px; margin-top: -300px;margin-bottom: 100px; z-index: 5"> <h1>more stuff</h1></section>
+					
+					<div class="spacer s1" style="background-image: url(Images/pagetop.png); background-repeat: no-repeat; width: 100%; height: 330px; z-index: 10;">
+						<div class="box2 blue" style="margin-top: -20px;">
 							<p>Content 2</p>
 							<a href="#" class="viewsource">view source</a>
 						</div>
 					</div>
-					<div class="spacer s0"></div>
-					<div id="parallax3" class="parallaxParent">
-						<div style="background-image: url(Images/MobileLargenoback3.png); background-repeat: no-repeat; background-color:#111111;">
+				<div class="spacer s0" style="margin-top: -250px;"></div>
+					<div id="parallax3" class="parallaxParent" style="margin: 0px;">
+						<div style="background-image: url(Images/MobileLargenoback3.png); background-repeat: no-repeat; background-color:#111111; z-index: -1;">
+					<p style="color: white">some more things!</p>
 					</div>
+					<h1 style="color:white; text-align:center; z-index: 5;">This is a thing</h1>
 					</div>
-					<div class="spacer s2"></div>
-					<div class="spacer s1">
-						<div class="box2 blue">
+					
+					<div class="spacer s2" style="background-image: url(Images/pagetop.png); background-repeat: no-repeat; width: 100%; height: 330px; z-index: 10;">
+						<div class="box2 blue" style="margin-top: -16px;">
 							<p>Content 2</p>
 							<a href="#" class="viewsource">view source</a>
 						</div>
-					</div>
-					<div class="spacer s0"></div>
+						</div>
+					<div class="spacer s0" style="margin-top: -250px;"></div>
 					<div id="parallax4" class="parallaxParent">
-						<div style="background-image: url(Images/MobileLargenoback4.png); background-repeat: no-repeat; background-color:#111111; width:100%;">
+						<div style="background-image: url(Images/MobileLargenoback4.png); background-repeat: no-repeat; background-color:#111111; width:100%; z-index:-1;">
 					</div>
 					</div>
 					<script>
@@ -78,24 +84,23 @@
 						// build scenes
 						new ScrollMagic.Scene({triggerElement: "#parallax1"})
 										.setTween("#parallax1 > div", {y: "50%", ease: Linear.easeNone})
-										.addIndicators()
+										
 										.addTo(controller);
 
 						new ScrollMagic.Scene({triggerElement: "#parallax2"})
 										.setTween("#parallax2 > div", {y: "50%", ease: Linear.easeNone})
-										.addIndicators()
+										
 										.addTo(controller);
 
 						new ScrollMagic.Scene({triggerElement: "#parallax3"})
 										.setTween("#parallax3 > div", {y: "50%", ease: Linear.easeNone})
-										.addIndicators()
+										
 										.addTo(controller);
 						new ScrollMagic.Scene({triggerElement: "#parallax4"})
 										.setTween("#parallax4 > div", {y: "50%", ease: Linear.easeNone})
-										.addIndicators()
+										
 										.addTo(controller);
 					</script>
 
-<body>
 </body>
 </html>
