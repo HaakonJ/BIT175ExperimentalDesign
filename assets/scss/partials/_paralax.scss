@@ -1,0 +1,10 @@
+.parallaxParent {
+	height: 100vh;
+	overflow: hidden;
+	margin: 0px;
+}
+.parallaxParent > * {
+	height: 150%;
+	position: relative;
+	top: -110%;
+}

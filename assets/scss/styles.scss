@@ -1,6 +1,14 @@
-/* CSS Document */
 @import 'partials/variables';
+@import 'partials/paralax';
+@import 'partials/font';
 
 body{
 	margin:0;
+}
+
+nav{
+	font-size: 30px;
+	color: aliceblue;
+	margin: -60px 20px 60px 0px;
+
 }

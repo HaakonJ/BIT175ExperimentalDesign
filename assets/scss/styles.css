@@ -1,4 +1,23 @@
-/* CSS Document */
-/* CSS Document */
+.parallaxParent {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px; }
+
+.parallaxParent > * {
+  height: 150%;
+  position: relative;
+  top: -110%; }
+
+@font-face {
+  font-family: CFAnarchy Regular;
+  src: url(Fonts/CFAnarchy-Regular.ttf); }
+@font-face {
+  font-family: CandyShopPersonalUse;
+  src: url(Fonts/CandyShopPersonalUse.ttf); }
 body {
   margin: 0; }
+
+nav {
+  font-size: 30px;
+  color: aliceblue;
+  margin: -60px 20px 60px 0px; }
