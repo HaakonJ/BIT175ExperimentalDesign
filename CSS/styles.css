@@ -17,9 +17,119 @@
   src: url(Fonts/CandyShopPersonalUse.ttf); }
 
 body {
-  margin: 0; }
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  background-image: url(../Images/pagetop.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 330px;
+  z-index: -1;
+  margin-top: -40px; }
+
+header h1 {
+  color: #bbb;
+  padding: 20px;
+  font-size: 70px;
+  position: absolute;
+  z-index: 5; }
+
+header h2 a:link, header h2 a:visited {
+  color: #bbb;
+  padding: 30px;
+  font-family: 'AllAges';
+  font-size: 70px;
+  position: absolute;
+  z-index: 5;
+  margin-left: 75px;
+  margin-top: 35px; }
+
+header h2 a:hover, header h2 a:active {
+  color: #444;
+  padding: 30px;
+  font-family: 'AllAges';
+  font-size: 70px;
+  position: absolute;
+  z-index: 5;
+  margin-left: 75px;
+  margin-top: 35px; }
 
 nav {
-  font-size: 30px;
-  color: aliceblue;
-  margin: -60px 20px 60px 0px; }
+  color: #e00004;
+  font-family: CandyShopPersonalUse;
+  font-size: 50px;
+  margin-top: -220px;
+  margin-left: 50px;
+  text-shadow: 1px 1px #fff;
+  z-index: 10;
+  box-shadow: 7px 7px #fff;
+  width: 20%;
+  transform: skewX(15deg);
+  background-color: #0050CB; }
+
+nav ul {
+  list-style: none; }
+
+a:link, a:visited {
+  color: #e00004;
+  text-decoration: none; }
+
+a:hover, a:active {
+  color: #5901d5;
+  text-decoration: none; }
+
+#parallax1 {
+  margin-top: -400px;
+  height: 1100px; }
+
+#parallax1 div {
+  background-image: url(../Images/MobileLargenoback.png);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  z-index: -5; }
+
+#parallax2 {
+  margin-top: -250px;
+  height: 1100px; }
+
+#parallax2 div {
+  background-image: url(../Images/MobileLargenoback2.png);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  z-index: -5; }
+
+#parallax3 {
+  margin-top: -190px;
+  height: 1100px; }
+
+#parallax3 div {
+  background-image: url(../Images/MobileLargenoback3.png);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  z-index: -5; }
+
+#parallax4 {
+  margin-top: -190px;
+  height: 1100px; }
+
+#parallax4 div {
+  background-image: url(../Images/MobileLargenoback4.png);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  z-index: -5; }
+
+.paper, .spacer {
+  background-image: url(../Images/pagetop.png);
+  width: 100%;
+  height: 330px;
+  z-index: 10;
+  margin-top: 0px;
+  margin-top: -16px; }
+
+.spacer .s0 .paper {
+  margin-top: -250px; }
+
+.spacer .s0 {
+  margin: -10px;
+  padding: 20px; }
