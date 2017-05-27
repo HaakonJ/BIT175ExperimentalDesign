@@ -133,6 +133,15 @@ nav ul {
   font-size: 50px;
   text-shadow: 1px 1px #444; }
 
+.herosection {
+  background-color: #005d03;
+  width: 80%;
+  height: 700px;
+  margin: -800px 40px 20px;
+  z-index: 5;
+  transform: skewX(5deg);
+  box-shadow: 4px 4px #009f00; }
+
 @media (min-width: 860px) {
   body {
     margin: 0px;
