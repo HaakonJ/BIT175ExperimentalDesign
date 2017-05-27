@@ -26,7 +26,7 @@
 </head>
 <body>
 <header class="paper">
-	<h1><a href="index.html">Experimental Design</a></h1>
+	<h1><a href="index.html">Spacehawk</a></h1>
 </header>
 				<nav>
 					<ul>
@@ -43,7 +43,7 @@
 					</div>
 					
 					<div id="spacer1" class="spacer">
-					<h2>Heroes</h2>
+					<h2>Story</h2>
 					</div>
 					<div id="parallax2" class="parallaxParent">
 						<div>
@@ -51,18 +51,28 @@
 					</div>
 					<section class="herosection"><h2>more stuff</h2></section>
 					
-					<div class="spacer s1" style="margin-top:-20px">
+					<div id="spacer2" class="spacer s1">
+					<h2>Powers</h2>
 					</div>
 					<div id="parallax3" class="parallaxParent">
 					<div>
-					<p style="color: white">some more things!</p>
 					</div>
 					
 					<h1 style="color:hsla(0,0%,31%,1.00); text-align:center; z-index: 5; font-family: CandyShopPersonalUse; font-size: 70px;text-shadow: 3px 3px #fff;">This is a thing</h1>
 					</div>
 						
-					<div class="spacer s0 paper"></div>
+					<div id="spacer3" class="spacer s0 paper">
+						<h2>World</h2>
+					</div>
 					<div id="parallax4" class="parallaxParent">
+						<div>
+					</div>
+					</div>
+					
+					<div id="spacer4" class="spacer s0 paper">
+						<h2>Buy Now</h2>
+					</div>
+					<div id="parallax5" class="parallaxParent">
 						<div>
 					</div>
 					</div>
@@ -87,6 +97,10 @@
 										.addTo(controller);
 						new ScrollMagic.Scene({triggerElement: "#parallax4"})
 										.setTween("#parallax4 > div", {y: "50%", ease: Linear.easeNone})
+										
+										.addTo(controller);
+						new ScrollMagic.Scene({triggerElement: "#parallax5"})
+										.setTween("#parallax5 > div", {y: "50%", ease: Linear.easeNone})
 										
 										.addTo(controller);
 					</script>

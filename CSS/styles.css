@@ -128,12 +128,12 @@ nav ul {
   margin: -10px;
   padding: 20px; }
 
-#spacer1 h2 {
+#spacer1 h2, #spacer2 h2, #spacer3 h2, #spacer4 h2 {
   padding: 20px;
   font-family: CandyShopPersonalUse;
   color: #e00004;
   font-size: 50px;
-  text-shadow: 1px 1px #444; }
+  text-shadow: 1px 1px #fff; }
 
 .herosection {
   background-color: #005d03;
@@ -188,7 +188,7 @@ nav ul {
     text-shadow: 1px 1px #fff;
     z-index: 10;
     box-shadow: 7px 7px #fff;
-    width: 20%;
+    width: 10%;
     transform: skewX(15deg);
     background-color: #0050CB; }
   nav ul {
@@ -242,7 +242,7 @@ nav ul {
     font-family: CandyShopPersonalUse;
     color: #e00004;
     font-size: 50px;
-    text-shadow: 1px 1px #444; }
+    text-shadow: 1px 1px #fff; }
   .herosection {
     background-color: #005d03;
     width: 80%;
@@ -325,11 +325,11 @@ nav ul {
     background-repeat: no-repeat;
     background-color: #111111;
     z-index: -5; }
-  #parallax4 {
+  #parallax5 {
     margin-top: -250px;
     height: 1100px; }
-  #parallax4 div {
-    background-image: url(../Images/MobileLargenoback4.png);
+  #parallax5 div {
+    background-image: url(../Images/MobileLargenoback6.png);
     background-repeat: no-repeat;
     background-color: #111111;
     z-index: -5; }
@@ -350,7 +350,7 @@ nav ul {
     font-family: CandyShopPersonalUse;
     color: #e00004;
     font-size: 50px;
-    text-shadow: 1px 1px #444; }
+    text-shadow: 1px 1px #fff; }
   .herosection {
     background-color: #005d03;
     width: 80%;
