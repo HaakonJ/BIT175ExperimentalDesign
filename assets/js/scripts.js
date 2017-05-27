@@ -1,23 +1,22 @@
 // JavaScript Document
 
-var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "100%"}});
+function myFunction() {
+	"use strict";
+	document.getElementById("myDropdown").classList.toggle("show");
+}
 
-						// build scenes
-						new ScrollMagic.Scene({triggerElement: "#parallax1"})
-										.setTween("#parallax1 > div", {y: "50%", ease: Linear.easeNone})
-										
-										.addTo(controller);
-
-						new ScrollMagic.Scene({triggerElement: "#parallax2"})
-										.setTween("#parallax2 > div", {y: "50%", ease: Linear.easeNone})
-										
-										.addTo(controller);
-
-						new ScrollMagic.Scene({triggerElement: "#parallax3"})
-										.setTween("#parallax3 > div", {y: "50%", ease: Linear.easeNone})
-										
-										.addTo(controller);
-						new ScrollMagic.Scene({triggerElement: "#parallax4"})
-										.setTween("#parallax4 > div", {y: "50%", ease: Linear.easeNone})
-										
-										.addTo(controller);
+function filterFunction() {
+	"use strict";
+	var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+	a = div.getElementsByTagName("a");
+	for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+			a[i].style.display = "none";
+		}
+    }
+}

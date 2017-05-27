@@ -14,45 +14,46 @@ header{
 	height: 330px; 
 	z-index: -1; 
 	margin-top: -60px;
+} 
+
+a:link, a:visited{
+	color:$red; 
+	text-decoration: none;
 }
 
-header h1{
-	color:#bbb; padding: 20px; font-size: 70px;position: absolute; z-index: 5;
+a:hover, a:active{
+color:$purple; 
+	text-decoration: none;
 }
-header h2 a:link, header h2 a:visited{
-	color:#bbb; padding: 30px; font-family:'AllAges'; font-size: 70px; position: absolute; z-index: 5; margin-left: 75px; margin-top: 35px;
+
+header h1 a:link, header h1 a:visited{
+	color:$lightgrey; padding: 10px; font-family:'AllAges'; font-size: 45px; position: absolute; z-index: 5; margin-top: 35px;
 }
  
-header h2 a:hover, header h2 a:active{
-	color:#444; padding: 30px; font-family:'AllAges'; font-size: 70px; position: absolute; z-index: 5; margin-left: 75px; margin-top: 35px;
+header h1 a:hover, header h1 a:active{
+	color:$darkgrey; padding: 10px; font-family:'AllAges'; font-size: 45px; position: absolute; z-index: 5; margin-top: 35px;
+}
+
+h1, h2{
+	margin: 0px;
 }
 
 nav{
-	color:hsla(359,100%,44%,1.00); 
+	color:$red; 
 	font-family: CandyShopPersonalUse; 
-	font-size: 50px; 
+	font-size: 30px; 
 	margin-top: -220px; 
 	margin-left: 50px; 
 	text-shadow: 1px 1px #fff; 
 	z-index: 10; 
 	box-shadow: 7px 7px #fff; 
-	width:20%; 
+	width:40%; 
 	transform: skewX(15deg); 
-	background-color:#0050CB; 
+	background-color:$blue; 
 }
  
 nav ul{
 	list-style: none;
-}
-
-a:link, a:visited{
-	color:hsla(359,100%,44%,1.00); 
-	text-decoration: none;
-}
-
-a:hover, a:active{
-color:hsla(265,99%,42%,1.00); 
-	text-decoration: none;
 }
 
 #parallax1{
@@ -73,7 +74,7 @@ color:hsla(265,99%,42%,1.00);
 }
 
 #parallax3{
-	margin-top: -190px; height: 1100px;
+	margin-top: -250px; height: 1100px;
 }
 
 #parallax3 div{
@@ -81,7 +82,7 @@ color:hsla(265,99%,42%,1.00);
 }
 
 #parallax4{
-	margin-top: -190px; height: 1100px;
+	margin-top: -250px; height: 1100px;
 }
 
 #parallax4 div{
@@ -102,3 +103,232 @@ color:hsla(265,99%,42%,1.00);
 	padding: 20px;
 }
 
+#spacer1 h2{
+	padding:20px;
+	font-family: CandyShopPersonalUse;
+	color: $red;
+	font-size: 50px;
+	text-shadow: 1px 1px $darkgrey; 
+}
+
+@media(min-width:860px){
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+header{
+	background-image: url(../Images/pagetop.png); 
+	background-repeat: no-repeat; 
+	width: 100%; 
+	height: 330px; 
+	z-index: -1; 
+	margin-top: -60px;
+} 
+
+a:link, a:visited{
+	color:$red; 
+	text-decoration: none;
+}
+
+a:hover, a:active{
+color:$purple; 
+	text-decoration: none;
+}
+
+header h1 a:link, header h1 a:visited{
+	color:$lightgrey; padding: 30px; font-family:'AllAges'; font-size: 70px; position: absolute; z-index: 5; margin-top: 35px;
+}
+ 
+header h1 a:hover, header h1 a:active{
+	color:$darkgrey; padding: 30px; font-family:'AllAges'; font-size: 70px; position: absolute; z-index: 5; margin-top: 35px;
+}
+
+h1, h2{
+	margin: 0px;
+}
+
+nav{
+	color:$red; 
+	font-family: CandyShopPersonalUse; 
+	font-size: 50px; 
+	margin-top: -220px; 
+	margin-left: 50px; 
+	text-shadow: 1px 1px #fff; 
+	z-index: 10; 
+	box-shadow: 7px 7px #fff; 
+	width:20%; 
+	transform: skewX(15deg); 
+	background-color:$blue; 
+}
+ 
+nav ul{
+	list-style: none;
+}
+
+#parallax1{
+	margin-top: -400px;
+	height: 1100px;
+}
+
+#parallax1 div{
+	background-image: url(../Images/MobileLargenoback.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+#parallax2{
+	margin-top: -250px; height: 1100px;
+}
+
+#parallax2 div{
+	background-image: url(../Images/MobileLargenoback2.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+#parallax3{
+	margin-top: -250px; height: 1100px;
+}
+
+#parallax3 div{
+	background-image: url(../Images/MobileLargenoback3.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+#parallax4{
+	margin-top: -250px; height: 1100px;
+}
+
+#parallax4 div{
+	background-image: url(../Images/MobileLargenoback4.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+.paper, .spacer{
+	background-image: url(../Images/pagetop.png);
+	width: 100%; height: 330px; z-index: 10; margin-top: 0px; margin-top: -16px;
+}
+
+.spacer .s0 .paper{
+	margin-top: -250px;
+}
+
+.spacer .s0{
+	margin: -10px;
+	padding: 20px;
+}
+
+#spacer1 h2{
+	padding:20px;
+	font-family: CandyShopPersonalUse;
+	color: $red;
+	font-size: 50px;
+	text-shadow: 1px 1px $darkgrey; 
+}
+}
+
+@media(min-width:480px){
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+header{
+	background-image: url(../Images/pagetop.png); 
+	background-repeat: no-repeat; 
+	width: 100%; 
+	height: 330px; 
+	z-index: -1; 
+	margin-top: -60px;
+} 
+
+a:link, a:visited{
+	color:$red; 
+	text-decoration: none;
+}
+
+a:hover, a:active{
+color:$purple; 
+	text-decoration: none;
+}
+
+header h1 a:link, header h1 a:visited{
+	color:$lightgrey; padding: 30px; font-family:'AllAges'; font-size: 70px; position: absolute; z-index: 5; margin-top: 35px;
+}
+ 
+header h1 a:hover, header h1 a:active{
+	color:$darkgrey; padding: 30px; font-family:'AllAges'; font-size: 70px; position: absolute; z-index: 5; margin-top: 35px;
+}
+
+h1, h2{
+	margin: 0px;
+}
+
+nav{
+	color:$red; 
+	font-family: CandyShopPersonalUse; 
+	font-size: 50px; 
+	margin-top: -220px; 
+	margin-left: 50px; 
+	text-shadow: 1px 1px #fff; 
+	z-index: 10; 
+	box-shadow: 7px 7px #fff; 
+	width:20%; 
+	transform: skewX(15deg); 
+	background-color:$blue; 
+}
+ 
+nav ul{
+	list-style: none;
+}
+
+#parallax1{
+	margin-top: -400px;
+	height: 1100px;
+}
+
+#parallax1 div{
+	background-image: url(../Images/MobileLargenoback.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+#parallax2{
+	margin-top: -250px; height: 1100px;
+}
+
+#parallax2 div{
+	background-image: url(../Images/MobileLargenoback2.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+#parallax3{
+	margin-top: -250px; height: 1100px;
+}
+
+#parallax3 div{
+	background-image: url(../Images/MobileLargenoback3.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+#parallax4{
+	margin-top: -250px; height: 1100px;
+}
+
+#parallax4 div{
+	background-image: url(../Images/MobileLargenoback4.png); background-repeat: no-repeat; background-color:#111111; z-index: -5;
+}
+
+.paper, .spacer{
+	background-image: url(../Images/pagetop.png);
+	width: 100%; height: 330px; z-index: 10; margin-top: 0px; margin-top: -16px;
+}
+
+.spacer .s0 .paper{
+	margin-top: -250px;
+}
+
+.spacer .s0{
+	margin: -10px;
+	padding: 20px;
+}
+
+#spacer1 h2{
+	padding:20px;
+	font-family: CandyShopPersonalUse;
+	color: $red;
+	font-size: 50px;
+	text-shadow: 1px 1px $darkgrey; 
+}
+}
