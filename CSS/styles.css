@@ -126,6 +126,16 @@ nav ul {
   background-color: #111111;
   z-index: -5; }
 
+#parallax5 {
+  margin-top: -250px;
+  height: 1100px; }
+
+#parallax5 div {
+  background-image: url(../Images/MobileLargenoback6.png);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  z-index: -5; }
+
 .paper, .spacer {
   background-image: url(../Images/pagetop.png);
   width: 100%;
@@ -238,6 +248,14 @@ nav ul {
     background-repeat: no-repeat;
     background-color: #111111;
     z-index: -5; }
+  #parallax5 {
+    margin-top: -250px;
+    height: 1100px; }
+  #parallax5 div {
+    background-image: url(../Images/MobileLargenoback6.png);
+    background-repeat: no-repeat;
+    background-color: #111111;
+    z-index: -5; }
   .paper, .spacer {
     background-image: url(../Images/pagetop.png);
     width: 100%;
@@ -335,6 +353,14 @@ nav ul {
     height: 1100px; }
   #parallax3 div {
     background-image: url(../Images/MobileLargenoback3.png);
+    background-repeat: no-repeat;
+    background-color: #111111;
+    z-index: -5; }
+  #parallax4 {
+    margin-top: -250px;
+    height: 1100px; }
+  #parallax4 div {
+    background-image: url(../Images/MobileLargenoback4.png);
     background-repeat: no-repeat;
     background-color: #111111;
     z-index: -5; }
