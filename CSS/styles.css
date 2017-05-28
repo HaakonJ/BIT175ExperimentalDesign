@@ -16,6 +16,19 @@
   font-family: CandyShopPersonalUse;
   src: url(Fonts/CandyShopPersonalUse.ttf); }
 
+/* CSS Document */
+.playSound:hover {
+  animation-name: example;
+  animation-duration: .5s; }
+
+@keyframes example {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.25); }
+  100% {
+    transform: scale(1); } }
+
 body {
   margin: 0px;
   padding: 0px; }
@@ -112,16 +125,6 @@ nav ul {
   background-repeat: no-repeat;
   background-color: #111111;
   z-index: -5; }
-  
-  #parallax5 {
-    margin-top: -250px;
-    height: 1100px; }
-	
-  #parallax5 div {
-    background-image: url(../Images/MobileLargenoback6.png);
-    background-repeat: no-repeat;
-    background-color: #111111;
-    z-index: -5; }
 
 .paper, .spacer {
   background-image: url(../Images/pagetop.png);
@@ -235,14 +238,6 @@ nav ul {
     background-repeat: no-repeat;
     background-color: #111111;
     z-index: -5; }
-#parallax5 {
-    margin-top: -250px;
-    height: 1100px; }
-  #parallax5 div {
-    background-image: url(../Images/MobileLargenoback6.png);
-    background-repeat: no-repeat;
-    background-color: #111111;
-    z-index: -5; }
   .paper, .spacer {
     background-image: url(../Images/pagetop.png);
     width: 100%;
@@ -343,15 +338,7 @@ nav ul {
     background-repeat: no-repeat;
     background-color: #111111;
     z-index: -5; }
-  #parallax4 {
-    margin-top: -250px;
-    height: 1100px; }
-  #parallax4 div {
-    background-image: url(../Images/MobileLargenoback4.png);
-    background-repeat: no-repeat;
-    background-color: #111111;
-    z-index: -5; }
-#parallax5 {
+  #parallax5 {
     margin-top: -250px;
     height: 1100px; }
   #parallax5 div {

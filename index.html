@@ -14,6 +14,20 @@
   <script type="text/javascript" src="JS/animation.gsap.js"></script>
 	<script type="text/javascript" src="JS/debug.addIndicators.js"></script>
 
+<!--Sound js code-->
+	 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script>
+      var soundID = "Thunder";
+
+      function loadSound () {
+        createjs.Sound.registerSound("Evil_Laugh_1-Timothy-64737261.mp3", soundID);
+      }
+
+      function playSound () {
+        createjs.Sound.play(soundID);
+      }
+	</script>
+
 <style type="text/css">
 @font-face {
   font-family: AllAges;
@@ -24,7 +38,7 @@
   src: url(Fonts/CandyShopPersonalUse.ttf); }
 					</style>
 </head>
-<body>
+<body onload="loadSound();">
 <header class="paper">
 	<h1><a href="index.html">Spacehawk</a></h1>
 </header>
@@ -35,6 +49,7 @@
 					<li><a href="World.html">World</a></li>
 					<li><a href="Heroes.html">Game Info</a></li>
 					<li><a href="Heroes.html">Media</a></li>
+					<li><button onclick="playSound();" class="playSound">Play Sound</button></li>
 					</ul>
 				</nav>
 					<div id="parallax1" class="parallaxParent">
@@ -49,7 +64,24 @@
 						<div>
 					</div>
 					</div>
-					<section class="herosection"><h2>more stuff</h2></section>
+					
+					<script>
+						// init controller
+						var controller = new ScrollMagic.Controller();
+					</script>
+				<section>
+					<div id="trigger1"></div>
+					<section id="animate1" class="herosection" ><h2>more stuff</h2>
+					<script>
+						// build scene
+						var scene = new ScrollMagic.Scene({
+												triggerElement: "#trigger1"
+											})
+											.setTween("#animate1", 0.5, {scale: .95}) // trigger a TweenMax.to tween
+											.addTo(controller);
+					</script>
+				</section>	
+					
 					
 					<div id="spacer2" class="spacer s1">
 					<h2>Powers</h2>
