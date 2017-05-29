@@ -2,11 +2,12 @@
 @import 'partials/paralax';
 @import 'partials/font';
 @import 'partials/spring';
+@import 'partials/buttons';
 
 body{
 	margin:0px;
 	padding: 0px;
-}
+} 
 
 header{
 	background-image: url(../Images/pagetop.png); 
@@ -18,7 +19,7 @@ header{
 } 
 
 a:link, a:visited{
-	color:$red; 
+	color:$red;
 	text-decoration: none;
 }
 
@@ -38,6 +39,10 @@ header h1 a:hover, header h1 a:active{
 h1, h2{
 	margin: 0px;
 }
+
+p, strong{
+	font-size: 40px; text-shadow: 1px 1px #fff; 
+} 
 
 nav{
 	color:$red; 
@@ -141,7 +146,7 @@ body{
 	margin:0px;
 	padding: 0px;
 }
-
+ 
 header{
 	background-image: url(../Images/pagetop.png); 
 	background-repeat: no-repeat; 
@@ -404,7 +409,7 @@ nav ul{
 .buysection{
 	background-color: $darkgrey; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; 
 }
-}
+} 
 
 @media(min-width:720px){
 header h1 a:link, header h1 a:visited{

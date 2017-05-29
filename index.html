@@ -14,24 +14,10 @@
   <script type="text/javascript" src="JS/animation.gsap.js"></script>
 	<script type="text/javascript" src="JS/debug.addIndicators.js"></script>
 
-<!--Sound js code-->
-	 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-    <script>
-      var soundID = "Thunder";
-
-      function loadSound () {
-        createjs.Sound.registerSound("Evil_Laugh_1-Timothy-64737261.mp3", soundID);
-      }
-
-      function playSound () {
-        createjs.Sound.play(soundID);
-      }
-	</script>
-
 <style type="text/css">
 @font-face {
   font-family: AllAges;
-  src: url(Fonts/AllAgesDEMO.ttf); }
+  src: url(Fonts/punkkid.ttf); }
 
 @font-face {
   font-family: CandyShopPersonalUse;
@@ -45,11 +31,10 @@
 				<nav>
 					<ul>
 					<li><a href="Heroes.html">Heroes</a></li>
-					<li><a href="Heroes.html">Villians</a></li>
+					<li><a href="villains.html">Villians</a></li>
 					<li><a href="World.html">World</a></li>
 					<li><a href="Heroes.html">Game Info</a></li>
 					<li><a href="Heroes.html">Media</a></li>
-					<li><button onclick="playSound();" class="playSound">Play Sound</button></li>
 					</ul>
 				</nav>
 					<div id="parallax1" class="parallaxParent">
@@ -70,13 +55,14 @@
 						var controller = new ScrollMagic.Controller();
 					</script>
 					
-					<section id="animate1" class="herosection" ><h2>more stuff</h2>
+					<section id="animate1" class="herosection" ><h2>Content Coming Soon...</h2>
+					<a href="index.html"><div class="button"><h2>To Media</h2></div></a>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
 												triggerElement: "#trigger1"
 											})
-											.setTween("#animate1", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.setTween("#animate1", 0.5, {scale: .95}) // trigger a TweenMax.to tween
 											.addTo(controller);
 					</script>
 				</section>	
@@ -88,20 +74,21 @@
 					<div id="parallax3" class="parallaxParent">
 					<div>
 					</div>
-					<h1 style="color:hsla(0,0%,31%,1.00); text-align:center; z-index: 5; font-family: CandyShopPersonalUse; font-size: 70px;text-shadow: 3px 3px #fff;">This is a thing</h1>
+<!--					<h1 style="color:hsla(0,0%,31%,1.00); text-align:center; z-index: 5; font-family: CandyShopPersonalUse; font-size: 70px;text-shadow: 3px 3px #fff;">This is a thing</h1>-->
 					</div>
 					<script>
 						// init controller
 						var controller = new ScrollMagic.Controller();
 					</script>
 					
-					<section id="animate2" class="powersection" ><h2>more stuff</h2>
+					<section id="animate2" class="powersection" ><h2>Content Coming Soon...</h2>
+					<a href="index.html"><div class="button"><h2>To Heroes</h2></div></a>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
 												triggerElement: "#trigger2"
 											})
-											.setTween("#animate2", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.setTween("#animate2", 0.5, {scale: .95}) // trigger a TweenMax.to tween
 											.addTo(controller);
 					</script>
 					</section>
@@ -119,13 +106,14 @@
 						var controller = new ScrollMagic.Controller();
 					</script>
 					
-					<section id="animate3" class="worldsection" ><h2>more stuff</h2>
+					<section id="animate3" class="worldsection" ><h2>Content Coming Soon...</h2>
+					<a href="index.html"><div class="button"><h2>To World</h2></div></a>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
 												triggerElement: "#trigger3"
 											})
-											.setTween("#animate3", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.setTween("#animate3", 0.5, {scale: .95}) // trigger a TweenMax.to tween
 											.addTo(controller);
 					</script>
 					</section>
@@ -141,13 +129,15 @@
 						// init controller
 						var controller = new ScrollMagic.Controller();
 					</script>
-					<section id="animate4" class="buysection" ><h2>more stuff</h2>
+					<section id="animate4" class="buysection" >
+					<h2>Content Coming Soon...</h2>
+					<a href="index.html"><div class="button"><h2>To Game Info</h2></div></a>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
 												triggerElement: "#trigger4"
 											})
-											.setTween("#animate4", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.setTween("#animate4", 0.5, {scale: .95}) // trigger a TweenMax.to tween
 											.addTo(controller);
 					</script>
 					</section>

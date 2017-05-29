@@ -14,6 +14,20 @@
   <script type="text/javascript" src="JS/animation.gsap.js"></script>
 	<script type="text/javascript" src="JS/debug.addIndicators.js"></script>
 
+<!--Sound js code-->
+	 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script>
+      var soundID = "Laughter";
+
+      function loadSound () {
+        createjs.Sound.registerSound("Evil_Laugh_1-Timothy-64737261.mp3", soundID);
+      }
+
+      function playSound () {
+        createjs.Sound.play(soundID);
+      }
+	</script>
+
 <style type="text/css">
 @font-face {
   font-family: AllAges;
@@ -43,7 +57,7 @@
 					</div>
 					<div id="trigger1"></div>
 					<div id="spacer1" class="spacer">
-					<h2>Spacehawk</h2>
+					<h2>Antigonish</h2>
 					</div>
 					<div id="parallax2" class="parallaxParent">
 						<div>
@@ -55,8 +69,9 @@
 						var controller = new ScrollMagic.Controller();
 					</script>
 					
-					<section id="animate1" class="herosection" ><h2>Content Coming Soon...</h2>
-					<a href="Heroes.html#animate1"><div class="button2"><h2>More On Spachawk</h2></div></a>
+					<section id="animate1" class="herosection" >
+					<strong>Not much is known about the evil mastermind behind the destruction of your home world as well as your being sent to another universe. The only clue given to you of the true identity of this monster is a single recording of his laughter.</strong>
+					<button onclick="playSound();" class="button">Listen to the Clue!</button>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
@@ -69,20 +84,19 @@
 					
 	<div id="trigger2"></div>
 					<div id="spacer2" class="spacer s1">
-					<h2>Starlet</h2>
+					<h2>Boogie Man</h2>
 					</div>
 					<div id="parallax3" class="parallaxParent">
 					<div>
 					</div>
-<!--					<h1 style="color:hsla(0,0%,31%,1.00); text-align:center; z-index: 5; font-family: CandyShopPersonalUse; font-size: 70px;text-shadow: 3px 3px #fff;">This is a thing</h1>-->
 					</div>
 					<script>
 						// init controller
 						var controller = new ScrollMagic.Controller();
 					</script>
 					
-					<section id="animate2" class="powersection" ><h2>Content Coming Soon...</h2>
-					<a href="Heroes.html#animate2"><div class="button2"><h2>More On Starlet</h2></div></a>
+					<section id="animate2" class="powersection" >
+						<strong>There are many who have heard the name, but few who know the true tale of the Boogie-Man. Once a soldier in a war from a long ago. While checking a basement for hiding enemy soldiers he was exposed to a poison gas that sprang up from demonic symbols scrolled in the floor. After his death he was transformed into something else that warps the minds of those who come into contact with him as well as reality itself.</strong>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
@@ -94,7 +108,7 @@
 					</section>
 						<div id="trigger3"></div>
 					<div id="spacer3" class="spacer s0 paper">
-						<h2>Redacted</h2>
+						<h2>Blood Raven</h2>
 					</div>
 					<div id="parallax4" class="parallaxParent">
 						<div>
@@ -107,7 +121,6 @@
 					</script>
 					
 					<section id="animate3" class="worldsection" ><h2>Content Coming Soon...</h2>
-					<a href="Heroes.html#animate3"><div class="button2"><h2>More On Redacted</h2></div></a>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
@@ -119,7 +132,7 @@
 					</section>
 					<div id="trigger4"></div>
 					<div id="spacer4" class="spacer s0 paper">
-						<h2>Iron Eagle</h2>
+						<h2>Wolfy</h2>
 					</div>
 					<div id="parallax5" class="parallaxParent">
 						<div>
@@ -131,7 +144,6 @@
 					</script>
 					<section id="animate4" class="buysection" >
 					<h2>Content Coming Soon...</h2>
-					<a href="Heroes.html#animate4"><div class="button2"><h2>More On Iron Eagle</h2></div></a>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
