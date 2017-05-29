@@ -29,8 +29,8 @@
 /* CSS Document */
 .button {
   background-color: #5901d5;
-  width: 250px;
-  height: 50px;
+  width: 220px;
+  height: 75px;
   transform: skewX(-5deg);
   box-shadow: 4px 4px #bbb;
   font-size: 25px;
@@ -40,11 +40,11 @@
 
 .button2 {
   background-color: #5901d5;
-  width: 250px;
-  height: 75px;
+  width: 220px;
+  height: 100px;
   transform: skewX(-5deg);
   box-shadow: 4px 4px #bbb;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'AllAges';
   color: white;
   border: none; }
@@ -55,6 +55,28 @@
 .button:link, .button:visited, .button2:link, .button2:visited {
   color: white; }
 
+@media (min-width: 480px) {
+  .button {
+    background-color: #5901d5;
+    width: 250px;
+    height: 50px;
+    transform: skewX(-5deg);
+    box-shadow: 4px 4px #bbb;
+    font-size: 25px;
+    font-family: 'AllAges';
+    color: white;
+    border: none; }
+
+  .button2 {
+    background-color: #5901d5;
+    width: 250px;
+    height: 75px;
+    transform: skewX(-5deg);
+    box-shadow: 4px 4px #bbb;
+    font-size: 20px;
+    font-family: 'AllAges';
+    color: white;
+    border: none; } }
 body {
   margin: 0px;
   padding: 0px; }
@@ -97,7 +119,7 @@ h1, h2 {
   margin: 0px; }
 
 p, strong {
-  font-size: 40px;
+  font-size: 25px;
   text-shadow: 1px 1px #fff; }
 
 nav {
@@ -115,6 +137,10 @@ nav {
 
 nav ul {
   list-style: none; }
+
+.map {
+  height: 600px;
+  width: 225px; }
 
 #parallax1 {
   margin-top: -400px;
@@ -447,6 +473,10 @@ nav ul {
   nav ul {
     list-style: none; }
 
+  .map {
+    height: 600px;
+    width: 400px; }
+
   #parallax1 {
     margin-top: -400px;
     height: 1100px; }
@@ -572,6 +602,10 @@ nav ul {
     position: absolute;
     z-index: 5;
     margin-top: 35px; }
+
+  .map {
+    height: 600px;
+    width: 450px; }
 
   .herosection {
     background-color: #005d03;

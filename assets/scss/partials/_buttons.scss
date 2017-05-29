@@ -1,17 +1,28 @@
 /* CSS Document */
 
 .button{
+	background-color: $purple; width: 220px; height: 75px;  transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; font-size: 25px; font-family: 'AllAges'; color: white; border: none;
+}
+
+.button2{
+	background-color: $purple; width: 220px; height: 100px;  transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; font-size: 18px; font-family: 'AllAges'; color: white; border: none;
+}
+
+.button:link, .button:visited, .button2:link, .button2:visited{
+	color: white;
+} 
+
+.button:link, .button:visited, .button2:link, .button2:visited{
+	color: white;
+} 
+
+@media(min-width:480px)
+{
+.button{
 	background-color: $purple; width: 250px; height: 50px;  transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; font-size: 25px; font-family: 'AllAges'; color: white; border: none;
 }
 
 .button2{
 	background-color: $purple; width: 250px; height: 75px;  transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; font-size: 20px; font-family: 'AllAges'; color: white; border: none;
 }
-
-.button:link, .button:visited, .button2:link, .button2:visited{
-	color: white;
-} 
-
-.button:link, .button:visited, .button2:link, .button2:visited{
-	color: white;
-} 
+}

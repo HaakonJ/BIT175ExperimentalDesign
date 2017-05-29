@@ -41,7 +41,7 @@ h1, h2{
 }
 
 p, strong{
-	font-size: 40px; text-shadow: 1px 1px #fff; 
+	font-size: 25px; text-shadow: 1px 1px #fff; 
 } 
 
 nav{
@@ -61,6 +61,8 @@ nav{
 nav ul{
 	list-style: none;
 }
+
+.map{height: 600px; width: 225px;}
 
 #parallax1{
 	margin-top: -400px;
@@ -331,6 +333,8 @@ nav ul{
 	list-style: none;
 }
 
+	.map{height: 600px; width: 400px;}
+	
 #parallax1{
 	margin-top: -400px;
 	height: 1100px;
@@ -391,7 +395,7 @@ nav ul{
 	font-family: CandyShopPersonalUse;
 	color: $red;
 	font-size: 50px;
-	text-shadow: 1px 1px #fff; 
+	text-shadow: 1px 1px #fff;
 }
 	
 .herosection{
@@ -420,6 +424,8 @@ header h1 a:hover, header h1 a:active{
 	color:$darkgrey; padding: 20px; font-family:'AllAges'; font-size: 50px; position: absolute; z-index: 5; margin-top: 35px;
 }
 
+	.map{height: 600px; width: 450px;}
+	
 .herosection{
 	background-color: $green; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $lightgreen; 
 }
