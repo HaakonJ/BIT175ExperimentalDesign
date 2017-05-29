@@ -31,7 +31,7 @@
 
 /* CSS Document */
 .button {
-  background-color: #AA0002;
+  background-color: #5901d5;
   width: 250px;
   height: 50px;
   transform: skewX(-5deg);
@@ -42,7 +42,7 @@
   border: none; }
 
 .button2 {
-  background-color: #AA0002;
+  background-color: #5901d5;
   width: 250px;
   height: 75px;
   transform: skewX(-5deg);
