@@ -121,7 +121,19 @@ nav ul{
 }
 
 .herosection{
-	background-color: #005d03; width: 80%; height: 700px; margin: -800px 5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px #009f00;
+	background-color: $green; width: 80%; height: 700px; margin: -800px 5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $lightgreen;
+}
+
+.powersection{
+	background-color: $yellow; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightyellow; 
+}
+
+.worldsection{
+	background-color: #AA0002; width: 85%; height: 700px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $red;
+}
+
+.buysection{
+	background-color: $darkgrey; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; 
 }
 
 @media(min-width:860px){
@@ -243,7 +255,19 @@ nav ul{
 }
 	
 .herosection{
-	background-color: #005d03; width: 80%; height: 650px; margin: -800px 5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px #009f00; 
+	background-color: $green; width: 80%; height: 650px; margin: -800px 5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $lightgreen; 
+}
+	
+.powersection{
+	background-color: $yellow; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightyellow; 
+}
+	
+.worldsection{
+	background-color: #AA0002; width: 85%; height: 700px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $red;
+}
+
+.buysection{
+	background-color: $darkgrey; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; 
 }
 }
 
@@ -252,7 +276,7 @@ body{
 	margin:0px;
 	padding: 0px;
 }
-
+ 
 header{
 	background-image: url(../Images/pagetop.png); 
 	background-repeat: no-repeat; 
@@ -366,7 +390,19 @@ nav ul{
 }
 	
 .herosection{
-	background-color: #005d03; width: 80%; height: 650px; margin: -800px 10% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px #009f00; 
+	background-color: $green; width: 80%; height: 650px; margin: -800px 10% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $lightgreen; 
+}
+	
+.powersection{
+	background-color: $yellow; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightyellow; 
+}
+	
+.worldsection{
+	background-color: #AA0002; width: 85%; height: 700px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $red;
+}
+
+.buysection{
+	background-color: $darkgrey; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; 
 }
 }
 
@@ -380,6 +416,18 @@ header h1 a:hover, header h1 a:active{
 }
 
 .herosection{
-	background-color: #005d03; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px #009f00; 
+	background-color: $green; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $lightgreen; 
+}
+	
+.powersection{
+	background-color: $yellow; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightyellow; 
+}
+	
+.worldsection{
+	background-color: #AA0002; width: 85%; height: 700px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(5deg); box-shadow: 4px 4px $red;
+}
+
+.buysection{
+	background-color: $darkgrey; width: 85%; height: 650px; margin: -800px 7.5% 100px; z-index: 5; transform: skewX(-5deg); box-shadow: 4px 4px $lightgrey; 
 }
 }

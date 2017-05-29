@@ -56,7 +56,7 @@
 						<div>
 						</div>
 					</div>
-					
+					<div id="trigger1"></div>
 					<div id="spacer1" class="spacer">
 					<h2>Story</h2>
 					</div>
@@ -69,30 +69,43 @@
 						// init controller
 						var controller = new ScrollMagic.Controller();
 					</script>
-				<section>
-					<div id="trigger1"></div>
+					
 					<section id="animate1" class="herosection" ><h2>more stuff</h2>
 					<script>
 						// build scene
 						var scene = new ScrollMagic.Scene({
 												triggerElement: "#trigger1"
 											})
-											.setTween("#animate1", 0.5, {scale: .95}) // trigger a TweenMax.to tween
+											.setTween("#animate1", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
 											.addTo(controller);
 					</script>
 				</section>	
 					
-					
+	<div id="trigger2"></div>
 					<div id="spacer2" class="spacer s1">
 					<h2>Powers</h2>
 					</div>
 					<div id="parallax3" class="parallaxParent">
 					<div>
 					</div>
-					
 					<h1 style="color:hsla(0,0%,31%,1.00); text-align:center; z-index: 5; font-family: CandyShopPersonalUse; font-size: 70px;text-shadow: 3px 3px #fff;">This is a thing</h1>
 					</div>
-						
+					<script>
+						// init controller
+						var controller = new ScrollMagic.Controller();
+					</script>
+					
+					<section id="animate2" class="powersection" ><h2>more stuff</h2>
+					<script>
+						// build scene
+						var scene = new ScrollMagic.Scene({
+												triggerElement: "#trigger2"
+											})
+											.setTween("#animate2", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.addTo(controller);
+					</script>
+					</section>
+						<div id="trigger3"></div>
 					<div id="spacer3" class="spacer s0 paper">
 						<h2>World</h2>
 					</div>
@@ -101,6 +114,22 @@
 					</div>
 					</div>
 					
+					<script>
+						// init controller
+						var controller = new ScrollMagic.Controller();
+					</script>
+					
+					<section id="animate3" class="worldsection" ><h2>more stuff</h2>
+					<script>
+						// build scene
+						var scene = new ScrollMagic.Scene({
+												triggerElement: "#trigger3"
+											})
+											.setTween("#animate3", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.addTo(controller);
+					</script>
+					</section>
+					<div id="trigger4"></div>
 					<div id="spacer4" class="spacer s0 paper">
 						<h2>Buy Now</h2>
 					</div>
@@ -108,6 +137,20 @@
 						<div>
 					</div>
 					</div>
+					<script>
+						// init controller
+						var controller = new ScrollMagic.Controller();
+					</script>
+					<section id="animate4" class="buysection" ><h2>more stuff</h2>
+					<script>
+						// build scene
+						var scene = new ScrollMagic.Scene({
+												triggerElement: "#trigger4"
+											})
+											.setTween("#animate4", 0.5, {scale: 1.1}) // trigger a TweenMax.to tween
+											.addTo(controller);
+					</script>
+					</section>
 					<script>				
 						// init controller
 						var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "100%"}});
